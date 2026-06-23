@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="ELIXIRGYM MARIANAS - Club de fitness premium y exclusivo en Quito. Experimenta la esencia que transforma tu cuerpo y mente con instalaciones de lujo y entrenamiento elite.">
+  <title>ELIXIRGYM MARIANAS | La esencia que transforma</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- Film Grain Overlay -->
+  <div class="grain-overlay"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="nav-header" id="header">
+    <div class="nav-container">
+      <a href="#inicio" class="brand">
+        <div class="brand-icon">E</div>
+        <div class="brand-text">
+          <h2>ELIXIR<span class="gold-text">GYM</span></h2>
+          <small>Marianas • Quito</small>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#planes">Planes</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Ubicación</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20membres%C3%ADas."
+          target="_blank" class="btn-luxury btn-luxury-secondary">
+          <i data-lucide="message-circle" style="width: 14px; height: 14px; color: var(--color-gold);"></i>
+          <span>Escríbenos</span>
+        </a>
+      </div>
+
+      <!-- Mobile Burger Menu -->
+      <div class="menu-trigger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE SIDEBAR DRAWER -->
+  <div class="drawer-overlay" id="drawerOverlay" onclick="toggleMenu()"></div>
+  <aside class="nav-drawer" id="navDrawer">
+    <button class="drawer-close" onclick="toggleMenu()" aria-label="Cerrar menú">
+      <i data-lucide="x"></i>
+    </button>
+    <div class="drawer-menu">
+      <a href="#inicio" class="active" onclick="toggleMenu()">Inicio</a>
+      <a href="#nosotros" onclick="toggleMenu()">Nosotros</a>
+      <a href="#servicios" onclick="toggleMenu()">Servicios</a>
+      <a href="#planes" onclick="toggleMenu()">Planes</a>
+      <a href="#galeria" onclick="toggleMenu()">Galería</a>
+      <a href="#contacto" onclick="toggleMenu()">Contacto</a>
+    </div>
+    <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20deseo%20agendar%20una%20visita."
+      target="_blank" class="btn-luxury btn-luxury-primary" style="width: 100%; justify-content: center;">
+      <span>WhatsApp Directo</span>
+    </a>
+  </aside>
+
+  <!-- HERO SECTION FULLSCREEN -->
+  <section class="hero-fullscreen" id="inicio">
+    <div class="hero-bg">
+      <!-- Dark Cinematic Video Background -->
+      <video autoplay muted loop playsinline
+        poster="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1900&q=90">
+        <source src="https://cdn.coverr.co/videos/coverr-working-out-at-the-gym-1566/1080p.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-container">
+      <div class="hero-content reveal">
+        <span class="eyebrow">ELIXIRGYM MARIANAS • CLUB EXCLUSIVO</span>
+        <h1 class="hero-title">LA ESENCIA QUE<br><span class="gold-text">TRANSFORMA</span></h1>
+        <p class="hero-description">
+          Un santuario fitness diseñado bajo los estándares más exigentes. Espacios de diseño, tecnología de vanguardia
+          y un ambiente de exclusividad absoluta concebido para potenciar tu rendimiento.
+        </p>
+        <div class="hero-cta-buttons">
+          <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20quiero%20comenzar%20mi%20entrenamiento."
+            target="_blank" class="btn-luxury btn-luxury-primary">
+            <span>Comenzar Ahora</span>
+            <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+          </a>
+          <a href="#planes" class="btn-luxury btn-luxury-secondary">
+            <span>Ver Membresías</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FILOSOFÍA -->
+  <section class="luxury-sec" id="nosotros">
+    <div class="philosophy-grid">
+      <div class="philosophy-text reveal-left">
+        <span class="eyebrow">Nuestra Filosofía</span>
+        <h2 class="sec-title">TRANSFORMAMOS CUERPOS.<br><span class="gold-text">CAMBIAMOS VIDAS.</span></h2>
+        <div class="philosophy-blockquote">
+          "El verdadero lujo reside en el progreso constante de tu mente y tu físico."
+        </div>
+        <p>
+          En ELIXIRGYM MARIANAS, redefinimos el concepto de entrenamiento. No somos solo un gimnasio, somos un espacio
+          de alto nivel donde la disciplina y el confort convergen para crear una experiencia verdaderamente
+          transformadora.
+        </p>
+        <p>
+          Cada detalle ha sido diseñado para inspirarte: desde el equipamiento curado de grado profesional hasta un
+          servicio al cliente que comprende tus metas y te acompaña en cada paso.
+        </p>
+        <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20quiero%20conocer%20m%C3%A1s%20sobre%20su%20gimnasio."
+          target="_blank" class="btn-luxury btn-luxury-primary" style="margin-top: 20px;">
+          <span>Conoce más</span>
+        </a>
+      </div>
+      <div class="philosophy-img reveal-right">
+        <!-- High-End Luxury Gym Image -->
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80"
+          alt="Club de Fitness Elite ElixirGym">
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN SERVICIOS -->
+  <section class="luxury-sec" id="servicios">
+    <div class="sec-header center reveal">
+      <span class="eyebrow">Servicios Elite</span>
+      <h2 class="sec-title">UN ESPACIO A TU MEDIDA</h2>
+      <p class="sec-subtitle">Áreas y disciplinas diseñadas para cubrir todas tus necesidades bajo el mayor estándar de
+        calidad.</p>
+    </div>
+
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card reveal delay-100">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=80" alt="Musculación de Elite">
+        </div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <h3>Musculación</h3>
+          <p>Equipos profesionales seleccionados con precisión biomecánica para estimular el músculo de forma óptima y
+            segura.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card reveal delay-200">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1578762560072-46cf12e5252a?w=600&q=80" alt="Cardio Premium">
+        </div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <h3>Área Cardio</h3>
+          <p>Maquinaria cardiovascular moderna con pantallas inteligentes y ventilación dedicada para mejorar tu
+            resistencia.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card reveal delay-300">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a25f1?w=600&q=80"
+            alt="Entrenamiento Funcional">
+        </div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <h3>Funcional</h3>
+          <p>Césped sintético, trineos de arrastre, kettlebells y zonas de suspensión para optimizar tu
+            acondicionamiento físico.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="service-card reveal delay-400">
+        <div class="service-card-img">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&q=80" alt="Clases Grupales">
+        </div>
+        <div class="service-card-overlay"></div>
+        <div class="service-card-content">
+          <h3>Clases</h3>
+          <p>Programas dinámicos guiados por instructores certificados que potenciarán tu energía y motivación grupal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PLANES Y MEMBRESÍAS -->
+  <section class="luxury-sec" id="planes">
+    <div class="sec-header center reveal">
+      <span class="eyebrow">Membresías Exclusivas</span>
+      <h2 class="sec-title">PLANES ELIXIRGYM</h2>
+      <p class="sec-subtitle">Elige el camino de tu transformación física con opciones adaptadas a tus metas.</p>
+    </div>
+
+    <div class="planes-grid">
+      <!-- Plan 1 -->
+      <div class="plan-card reveal">
+        <div class="plan-header">
+          <h3 class="plan-title">BÁSICO</h3>
+          <span class="plan-subtitle">Tu Inicio</span>
+          <div class="plan-price">$49<span>/mes</span></div>
+        </div>
+        <ul class="plan-features">
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Acceso al gimnasio</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Uso de máquinas</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Clases grupales básicas</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Evaluación inicial</li>
+          <li class="disabled"><i data-lucide="x" style="width: 16px; height: 16px;"></i> Acceso a todas las sedes</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20deseo%20inscribirme%20en%20el%20Plan%20B%C3%A1sico%20de%20$49."
+            target="_blank" class="btn-luxury btn-luxury-secondary">Comenzar</a>
+        </div>
+      </div>
+
+      <!-- Plan 2 (Highlighted) -->
+      <div class="plan-card highlighted reveal delay-100">
+        <div class="plan-badge">MÁS ELEGIDO</div>
+        <div class="plan-header">
+          <h3 class="plan-title">PREMIUM</h3>
+          <span class="plan-subtitle">Tu Mejor Versión</span>
+          <div class="plan-price">$79<span>/mes</span></div>
+        </div>
+        <ul class="plan-features">
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Acceso ilimitado al gimnasio</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Clases grupales ilimitadas</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Entrenamiento personalizado 1 vez/semana
+          </li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Evaluaciones mensuales</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Acceso a todas las sedes</li>
+          <li class="disabled"><i data-lucide="x" style="width: 16px; height: 16px;"></i> Nutrición personalizada</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20deseo%20inscribirme%20en%20el%20Plan%20Premium%20Destacado%20de%20$79."
+            target="_blank" class="btn-luxury btn-luxury-primary">Elegir Plan</a>
+        </div>
+      </div>
+
+      <!-- Plan 3 -->
+      <div class="plan-card reveal delay-200">
+        <div class="plan-header">
+          <h3 class="plan-title">ELITE</h3>
+          <span class="plan-subtitle">Sin Límites</span>
+          <div class="plan-price">$119<span>/mes</span></div>
+        </div>
+        <ul class="plan-features">
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Acceso ilimitado al gimnasio</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Clases grupales ilimitadas</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Entrenamiento personalizado 3 veces/semana
+          </li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Evaluaciones semanales</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Acceso a todas las sedes</li>
+          <li><i data-lucide="check" style="width: 16px; height: 16px;"></i> Nutrición personalizada</li>
+        </ul>
+        <div class="plan-cta">
+          <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20deseo%20inscribirme%20en%20el%20Plan%20Elite%20Completo%20de%20$119."
+            target="_blank" class="btn-luxury btn-luxury-secondary">Comenzar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing sub-ribbon -->
+    <div class="plan-benefits-bar reveal">
+      <!-- Item 1 -->
+      <div class="benefit-item">
+        <div class="benefit-item-icon">
+          <i data-lucide="shield-check" style="width: 20px; height: 20px;"></i>
+        </div>
+        <div class="benefit-item-text">
+          <h4>SIN FIDELIDAD</h4>
+          <p>Cancela cuando quieras.</p>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="benefit-item">
+        <div class="benefit-item-icon">
+          <i data-lucide="gift" style="width: 20px; height: 20px;"></i>
+        </div>
+        <div class="benefit-item-text">
+          <h4>INVITA A UN AMIGO</h4>
+          <p>Obtén beneficios exclusivos.</p>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="benefit-item">
+        <div class="benefit-item-icon">
+          <i data-lucide="lock" style="width: 20px; height: 20px;"></i>
+        </div>
+        <div class="benefit-item-text">
+          <h4>CONGELA TU PLAN</h4>
+          <p>Si lo necesitas, sin complicaciones.</p>
+        </div>
+      </div>
+      <!-- Item 4 -->
+      <div class="benefit-item">
+        <div class="benefit-item-icon">
+          <i data-lucide="sparkles" style="width: 20px; height: 20px;"></i>
+        </div>
+        <div class="benefit-item-text">
+          <h4>ATENCIÓN PREMIUM</h4>
+          <p>Estamos para ayudarte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN GALERÍA (EDITORIAL STYLE) -->
+  <section class="luxury-sec" id="galeria">
+    <div class="sec-header center reveal">
+      <span class="eyebrow">Galería Elite</span>
+      <h2 class="sec-title">VIVE LA EXPERIENCIA ELIXIRGYM</h2>
+      <p class="sec-subtitle">Instalaciones exclusivas pensadas para los amantes del progreso corporal.</p>
+    </div>
+
+    <div class="gallery-container">
+      <div class="gallery-layout">
+        <!-- Item 1 -->
+        <div class="gallery-card col-8 reveal">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&q=80"
+            alt="Instalaciones de Musculación">
+          <div class="gallery-card-hover">
+            <h4>Zona de Peso Libre</h4>
+            <p>Rendimiento Absoluto</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-card col-4 reveal delay-100">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80" alt="Máquinas Premium">
+          <div class="gallery-card-hover">
+            <h4>Equipamiento Profesional</h4>
+            <p>Diseño y Biomecánica</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-card col-4 reveal">
+          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&q=80"
+            alt="Detalles de Mancuernas">
+          <div class="gallery-card-hover">
+            <h4>Detalles Seleccionados</h4>
+            <p>Estilo Minimalista</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-card col-8 reveal delay-100">
+          <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=900&q=80"
+            alt="Baños y Casilleros de Lujo">
+          <div class="gallery-card-hover">
+            <h4>Confort y Duchas</h4>
+            <p>Higiene y Elegancia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="luxury-sec" id="testimonios">
+    <div class="sec-header center reveal">
+      <span class="eyebrow">Nuestra Comunidad</span>
+      <h2 class="sec-title">LO QUE DICEN NUESTROS SOCIOS</h2>
+      <p class="sec-subtitle">Voces reales de atletas y socios que han transformado su cuerpo en nuestras instalaciones.
+      </p>
+    </div>
+
+    <div class="test-container">
+      <div class="test-slider" id="testimonialSlider">
+        <!-- Testimonial 1 -->
+        <div class="test-card">
+          <div>
+            <div class="test-rating">
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+            </div>
+            <p class="test-quote">
+              "Desde que entreno en ElixirGym Marianas, mi físico y mi mentalidad han cambiado por completo. El
+              ambiente, los entrenadores y la disciplina que se respira aquí son únicos."
+            </p>
+          </div>
+          <div class="test-author">
+            <div class="test-author-avatar">AM</div>
+            <div class="test-author-info">
+              <h4>Andrés M.</h4>
+              <p>Miembro ElixirGym</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="test-card">
+          <div>
+            <div class="test-rating">
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+            </div>
+            <p class="test-quote">
+              "La calidad de las máquinas y el diseño del gimnasio son incomparables en la zona. Realmente se siente
+              como un club de lujo donde puedes concentrarte en tus marcas."
+            </p>
+          </div>
+          <div class="test-author">
+            <div class="test-author-avatar">CP</div>
+            <div class="test-author-info">
+              <h4>Camila P.</h4>
+              <p>Miembro ElixirGym</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="test-card">
+          <div>
+            <div class="test-rating">
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+              <i data-lucide="star" style="width:16px; height:16px; fill:currentColor;"></i>
+            </div>
+            <p class="test-quote">
+              "Un trato exclusivo desde el primer día. Las rutinas personalizadas se notan y el acceso con código
+              digital en tu celular es sumamente práctico."
+            </p>
+          </div>
+          <div class="test-author">
+            <div class="test-author-avatar">JG</div>
+            <div class="test-author-info">
+              <h4>Juan G.</h4>
+              <p>Miembro ElixirGym</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls dots -->
+      <div class="test-controls" id="testimonialDots">
+        <div class="test-dot active" data-index="0"></div>
+        <div class="test-dot" data-index="1"></div>
+        <div class="test-dot" data-index="2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO Y UBICACIÓN -->
+  <section class="luxury-sec" id="contacto">
+    <div class="sec-header center reveal">
+      <span class="eyebrow">Localización</span>
+      <h2 class="sec-title">DÓNDE ENCONTRARNOS</h2>
+      <p class="sec-subtitle">Agenda tu visita gratuita y da el primer paso hacia tu nueva rutina.</p>
+    </div>
+
+    <div class="contact-layout">
+      <!-- Info block -->
+      <div class="contact-card reveal-left">
+        <div>
+          <!-- Item 1 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i data-lucide="map-pin" style="width: 20px; height: 20px;"></i>
+            </div>
+            <div class="contact-item-text">
+              <h4>Dirección</h4>
+              <p>Av. Geovanni Calles y Ricardo Calderón, Calderón, Quito, Ecuador</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i data-lucide="clock" style="width: 20px; height: 20px;"></i>
+            </div>
+            <div class="contact-item-text">
+              <h4>Horarios</h4>
+              <p>Lunes a Viernes: 06:00 AM - 10:00 PM<br>Sábados: 08:00 AM - 04:00 PM<br>Domingos: Cerrado</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i data-lucide="message-square" style="width: 20px; height: 20px;"></i>
+            </div>
+            <div class="contact-item-text">
+              <h4>WhatsApp / Teléfono</h4>
+              <p>096 110 0088</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-socials-wrapper">
+          <h4>Sigue el Estilo</h4>
+          <div class="contact-socials">
+            <a href="https://instagram.com" target="_blank" class="contact-social-icon" aria-label="Instagram">
+              <i data-lucide="instagram" style="width: 18px; height: 18px;"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="contact-social-icon" aria-label="Facebook">
+              <i data-lucide="facebook" style="width: 18px; height: 18px;"></i>
+            </a>
+            <a href="https://tiktok.com" target="_blank" class="contact-social-icon" aria-label="TikTok">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.06-2.89-.52-4.06-1.37-.28-.2-.53-.43-.77-.68v6.78c.08 2.05-.66 4.16-2.15 5.56-1.63 1.57-4.02 2.21-6.22 1.79-2.31-.41-4.38-2.09-5.18-4.34-1-2.73-.13-6.06 2.12-7.85 1.56-1.25 3.65-1.74 5.63-1.44V12c-1.31-.27-2.72-.03-3.75.84-.96.8-1.4 2.13-1.18 3.37.22 1.37 1.25 2.58 2.59 2.92 1.34.35 2.87-.13 3.65-1.25.56-.76.71-1.74.68-2.67V.02h-.02z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map block -->
+      <div class="map-card reveal-right">
+        <div class="map-iframe-container">
+          <!-- Premium styled custom coordinates for Av. Geovanni Calles y Ricardo Calderon -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.39702585042!2d-78.43167198755677!3d-0.09886475727042079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d58999905bbdf5%3A0xeab50d4fbbcfdfb5!2sCalder%C3%B3n!5e0!3m2!1ses!2sec!4v1719100000000!5m2!1ses!2sec"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de ElixirGym Marianas en Google Maps">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL FOOTER -->
+  <footer class="nav-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          ELIXIR<span class="footer-logo-gold">GYM</span>
+        </div>
+        <div class="footer-nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#planes">Planes</a>
+          <a href="#galeria">Galería</a>
+          <a href="#contacto">Ubicación</a>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ELIXIRGYM MARIANAS. Todos los derechos reservados. Club Exclusivo.</p>
+        <p>Diseño de lujo por <a
+            href="https://wa.me/593961100088?text=Hola,%20vi%20la%20landing%20de%20lujo%20de%20ElixirGym%20y%20quiero%20cotizar%20un%20sitio%20web."
+            target="_blank">Tu Agencia</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/593961100088?text=Hola%20ELIXIRGYM%20MARIANAS,%20vengo%20de%20la%20p%C3%A1gina%20web%20y%20deseo%20informaci%C3%B3n%20sobre%20las%20membres%C3%ADas."
+    class="wa-floating" target="_blank" aria-label="WhatsApp">
+    <div class="wa-pulse"></div>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.968C16.59 1.97 14.122.945 11.996.945c-5.442 0-9.87 4.372-9.874 9.802-.001 1.774.485 3.5 1.407 5.01L2.5 21.5l5.847-1.53c1.7.921 3.403 1.184 4.3 1.184zm11.224-7.615c-.295-.149-1.747-.862-2.017-.961-.27-.099-.467-.149-.663.149-.195.299-.757.961-.928 1.16-.172.199-.344.223-.64.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.663-1.597-.908-2.187-.238-.574-.48-.496-.663-.505-.171-.007-.368-.008-.564-.008-.196 0-.515.074-.784.371-.27.299-1.03 1.008-1.03 2.455 0 1.449 1.055 2.848 1.202 3.048.147.2 2.075 3.168 5.028 4.448.702.304 1.25.486 1.677.622.705.224 1.347.193 1.854.117.564-.084 1.748-.713 1.993-1.403.245-.689.245-1.278.172-1.402-.074-.125-.27-.199-.565-.348z" />
+    </svg>
+  </a>
+
+  <!-- Link script file -->
+  <script src="app.js"></script>
+</body>
+
+</html>
